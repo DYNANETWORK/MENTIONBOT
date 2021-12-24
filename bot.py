@@ -21,26 +21,26 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**I'm 《𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐑𝐨𝐛𝐨𝐭》**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Support [AltronixSupport](t.me/AltronixSupport) on Telegram",
+    "__**I'm 《𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐑𝐨𝐛𝐨𝐭》**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Support [MAMBA](t.me/MAMBA_X_SUPPORT) on Telegram",
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Channel', 'https://t.me/AltronixBots'),
-        Button.url('📦 Source', 'https://github.com/D3stroyer-xD/TagAllRobot')
+        Button.url('📣 Channel', 'https://t.me/MAMB_X_SUPPORT'),
+        Button.url('📦 Source', 'https://github.com/SUKHPAL443/MENTIONBOT')
       ]
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\Support [AltronixSupport](t.me/AltronixSupport) on Telegram"
+  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\Support [MAMBA](t.me/MAMBA_X_SUPPORT) on Telegram"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Channel', 'https://t.me/AltronixBots'),
-        Button.url('📦 Source', 'https://github.com/D3stroyer-xD/TagAllRobot')
+        Button.url('📣 Channel', 'https://t.me/MAMBA_X_SUPPORT'),
+        Button.url('📦 Source', 'https://github.com/SUKHPAL443/MENTIONBOT')
       ]
     )
   )
